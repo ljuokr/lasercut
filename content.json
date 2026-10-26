@@ -1,0 +1,510 @@
+[
+ {
+  "slug": "lasercut",
+  "label": "Übersicht",
+  "title": "Lasercut",
+  "sections": [
+   {
+    "id": "kopf",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Lasercut</h1><p class=\"lead\">Fachbereich <a href=\"https://sites.google.com/view/design-und-technik/home\" rel=\"noopener noreferrer\" target=\"_blank\">Design &amp; Technik</a></p><p>Ein Laserschneider verbrennt Material entlang einer Vektorgrafik. Er kann <strong>schneiden</strong> (Linie) und <strong>gravieren</strong> (Füllen). Diese Anleitung führt von der Grafik bis zum fertigen Teil und beschränkt sich auf das Wichtigste, damit nichts schiefgeht.</p><figure class=\"schritt\"><img src=\"/assets/vevor.jpg\" alt=\"Weiss-blauer Vevor-Laserschneider auf einem Rollwagen, oben die Klappe mit Sichtfenster, rechts Not-Halt, Schlüsselschalter und Bedienfeld\" width=\"1000\" height=\"644\" loading=\"lazy\"><figcaption>Vevor-Laser an der PH Luzern.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "wichtig",
+    "accordion": false,
+    "title": "Wichtig",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Wichtig</h2><ul><li><strong>Laser nie unbeaufsichtigt lassen</strong>, es besteht Brandgefahr. Beim Gerät bleiben und den Auftrag laufend beobachten.</li><li>Nicht dauerhaft in den Laserpunkt schauen, er ist je nach Material extrem hell.</li><li>Die Absaugung muss bei jedem Auftrag von Hand eingeschaltet werden.</li><li>Die Klappe erst öffnen, wenn der Rauch vollständig abgesaugt ist.</li><li>Immer mit einem Testschnitt beginnen.</li></ul>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "materialien",
+    "accordion": false,
+    "title": "Materialien",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Materialien</h2><p>Bearbeitet werden können grundsätzlich alle brennbaren Materialien, beschichtete Metalle lassen sich gravieren. Es dürfen keine giftigen Dämpfe entstehen, darum muss das Material immer bekannt sein.</p><table><thead><tr><th scope=\"col\">Geeignet</th><th scope=\"col\">Verboten</th></tr></thead><tbody><tr><td>Holz, Sperrholz, MDF, Karton, Papier<br>Kunststoffe: Acrylglas (PMMA), PE, PP, PET<br>Textilien: Baumwolle, Kunstfasern ohne Chlorverbindungen, Naturleder ohne Chrom</td><td><strong>PVC, Vinyl, Neopren (CR)</strong> und andere chlorhaltige Kunststoffe: sie erzeugen giftige und ätzende Gase<br>Unbekannte Kunststoffe</td></tr></tbody></table><p><a href=\"http://wiki.happylab.at/w/Laser_Cutter#Materialien\" rel=\"noopener noreferrer\" target=\"_blank\">Weitere Materialien (Happylab)</a> · <a href=\"http://www.barthmann-recycling.de/files/erkennekunststoffe.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Kunststoffe erkennen (PDF)</a> · <a href=\"https://www.lasercutteninderschule.ch/\" rel=\"noopener noreferrer\" target=\"_blank\">Lasercutten in der Schule</a>: Ideen, Blog und Tipps</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ablauf",
+    "accordion": false,
+    "title": "Von der Grafik zum Teil",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Von der Grafik zum Teil</h2><div class=\"diagram\" tabindex=\"0\" role=\"region\" aria-label=\"Ablaufgrafik, bei Bedarf seitlich verschiebbar\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 816 150\" role=\"img\" aria-labelledby=\"ab-t ab-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"ab-t\">Von der Grafik zum Teil</title><desc id=\"ab-d\">Schritt 1 Vektorgrafik erstellen. Schritt 2 in LightBurn oder xTool importieren. Schritt 3 Einstellungen aus der Materialbibliothek zuweisen, Linie zum Schneiden, Füllen zum Gravieren. Schritt 4 Material einlegen und fokussieren. Schritt 5 Rahmen abfahren. Schritt 6 Absaugung einschalten, starten und beaufsichtigen.</desc><defs><marker id=\"ab-p\" viewBox=\"0 0 10 10\" refX=\"0\" refY=\"5\" markerWidth=\"10\" markerHeight=\"10\" markerUnits=\"userSpaceOnUse\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#087d84\"/></marker></defs><rect x=\"4\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"63.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"63.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><text x=\"63.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Grafik</text><text x=\"63.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Vektoren,</text><text x=\"63.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">SVG oder DXF</text><path d=\"M124,75 L130,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"142\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"201.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"201.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><text x=\"201.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Software</text><text x=\"201.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">LightBurn</text><text x=\"201.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">oder xTool</text><path d=\"M262,75 L268,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"280\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"339.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"339.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><text x=\"339.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Einstellen</text><text x=\"339.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Linie oder</text><text x=\"339.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Füllen</text><path d=\"M400,75 L406,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"418\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"477.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"477.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"477.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Fokus</text><text x=\"477.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Material</text><text x=\"477.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">einlegen</text><path d=\"M538,75 L544,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"556\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"615.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"615.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><text x=\"615.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Rahmen</text><text x=\"615.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Position</text><text x=\"615.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">prüfen</text><path d=\"M676,75 L682,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"694\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"753.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"753.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><text x=\"753.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Starten</text><text x=\"753.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Absaugung,</text><text x=\"753.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">beaufsichtigen</text></svg></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "geraete",
+    "accordion": false,
+    "title": "Geräte an PHBern und PH Luzern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Geräte an PHBern und PH Luzern</h2><table><thead><tr><th scope=\"col\">Hochschule</th><th scope=\"col\">Gerät</th><th scope=\"col\">Software</th><th scope=\"col\">Fokus</th><th scope=\"col\">Anleitung</th></tr></thead><tbody><tr><th scope=\"row\">PHBern</th><td>GCC LaserPro X380, CO2-Laser, Arbeitsfläche ca. 960 × 610 mm</td><td>LightBurn mit GCC Connector, auf dem PC beim Laser</td><td>Taste «Auto Focus»</td><td><a href=\"/phbern-gcc\">GCC X380</a></td></tr><tr><th scope=\"row\">PH Luzern</th><td>Vevor CO2-Laser [VOR ORT PRUEFEN: Leistung und Arbeitsfläche]</td><td>LightBurn</td><td>von Hand, Abstand 13 mm</td><td><a href=\"/phlu-vevor\">Vevor</a></td></tr><tr><th scope=\"row\">PH Luzern</th><td>Makeblock LaserBox, CO2-Laser, Arbeitsfläche ca. 500 × 300 mm</td><td>xTool Creative Space oder LaserBox</td><td>durch die Software</td><td><a href=\"/laserbox\">LaserBox</a></td></tr></tbody></table><p>Die Einstellungen für Geschwindigkeit und Leistung gelten nur für das jeweilige Gerät. Werte nie von einem Laser auf den anderen übertragen.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "vektorgrafik",
+  "label": "Vektorgrafik",
+  "title": "Vektorgrafik",
+  "sections": [
+   {
+    "id": "kopf-vektor",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Vektorgrafik</h1><p>Laserschneider arbeiten mit Vektorgrafiken: Linien und Kurven, die mathematisch beschrieben sind und sich ohne Qualitätsverlust skalieren lassen. Geschnitten wird entlang der Linien, gefüllte Flächen werden graviert. Gravieren geht auch mit Pixelbildern (Fotos).</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "werkzeuge",
+    "accordion": false,
+    "title": "Werkzeuge",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Werkzeuge</h2><ul><li><strong>Kiste zeichnen:</strong> <a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool.app</a>, <a href=\"https://www.makercase.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Makercase</a>, <a href=\"https://boxes.hackerspace-bamberg.de/\" rel=\"noopener noreferrer\" target=\"_blank\">Boxes.py</a></li><li><strong>Vektorgrafik zeichnen:</strong> <a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool.app</a>, <a href=\"https://sketch.io/sketchpad/\" rel=\"noopener noreferrer\" target=\"_blank\">sketch.io</a>, <a href=\"https://inkscape.org/de/\" rel=\"noopener noreferrer\" target=\"_blank\">Inkscape</a></li><li><strong>Zahnräder:</strong> <a href=\"https://evolventdesign.com/pages/spur-gear-generator\" rel=\"noopener noreferrer\" target=\"_blank\">Spur Gear Generator</a></li><li><strong>Bild vektorisieren:</strong> <a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool.app</a> oder Inkscape, Menü «Pfad» › «Bitmap nachzeichnen» (<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>)</li></ul>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dateiformate",
+    "accordion": false,
+    "title": "Dateiformate und Tipps",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Dateiformate und Tipps</h2><ul><li>Zum Schneiden und Gravieren: Vektorgrafiken als <strong>.SVG</strong>, <strong>.DXF</strong> oder <strong>.AI</strong>.</li><li>Nur zum Gravieren: gängige Pixelbilder wie .PNG oder .JPG.</li><li>In Millimetern zeichnen und die Grösse nach dem Import prüfen.</li><li>Keine doppelten Linien übereinander, sonst wird zweimal geschnitten.</li><li>Pro Bearbeitung eine eigene Farbe verwenden, die Software macht daraus eigene Ebenen.</li></ul>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "phbern-gcc",
+  "label": "PHBern: GCC X380",
+  "title": "PHBern: GCC LaserPro X380",
+  "sections": [
+   {
+    "id": "kopf-gcc",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>PHBern: GCC LaserPro X380</h1><p>Grosser CO2-Laser mit Arbeitsfläche von ca. 960 × 610 mm. Er hängt an einem Windows-PC mit LightBurn. Damit LightBurn mit dem Laser sprechen kann, läuft im Hintergrund der «GCC Connector for LightBurn». Er startet mit dem PC, darin ist nichts einzustellen.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vor-dem-lasern",
+    "accordion": false,
+    "title": "Vor dem Lasern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Vor dem Lasern</h2><ol><li><strong>Nutzungsprotokoll:</strong> im <a href=\"https://lukasjordiphbern.github.io/LaserLog/\" rel=\"noopener noreferrer\" target=\"_blank\">Nutzer:innen-Protokoll</a> eintragen (QR-Code auf dem Poster beim Laser).</li><li><strong>Hauptschalter:</strong> startet den Laser und das Wasser-Kühlgerät.</li><li><strong>Autofokus:</strong> Laserkopf über das Material stellen und «Auto Focus» drücken.</li><li><strong>Absauganlage:</strong> vor jedem Auftrag einschalten.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-bilder",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": true,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<figure class=\"schritt\"><img src=\"/assets/gcc-hauptschalter.jpg\" alt=\"Weisser Hauptschalter mit rot leuchtender Wippe\" width=\"287\" height=\"288\" loading=\"lazy\"><figcaption>Hauptschalter.</figcaption></figure>"
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<figure class=\"schritt\"><img src=\"/assets/gcc-bedienfeld.jpg\" alt=\"Bedienfeld des GCC-Lasers mit Display, Tasten F1 bis F4, Pfeiltasten mit Enter, rechts Auto Focus, unten Start/Stop\" width=\"600\" height=\"846\" loading=\"lazy\"><figcaption>Bedienfeld mit «Auto Focus» und «Start/Stop».</figcaption></figure>"
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<figure class=\"schritt\"><img src=\"/assets/gcc-absaugung.jpg\" alt=\"Display der Absauganlage mit Ein-Taste links\" width=\"287\" height=\"288\" loading=\"lazy\"><figcaption>Absauganlage.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-1",
+    "accordion": true,
+    "title": "1. Einschalten und fokussieren",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Laser am Hauptschalter einschalten, dann den Computer.</li><li>Material einlegen, möglichst nahe an der linken oberen Ecke (Nullpunkt). Dort arbeitet der Laser am genauesten.</li><li>Den Laserkopf von Hand über das Material schieben. Er arretiert sich nicht, solange kein Auftrag läuft.</li><li>«Auto Focus» drücken. Wenn der Laser den Abstand eingestellt hat, «Back» drücken.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-2",
+    "accordion": true,
+    "title": "2. In LightBurn einrichten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>LightBurn starten und die Vektorgrafik importieren.</li><li>Jeder Ebene die Bearbeitung zuweisen: Modus «Linie» zum Schneiden, «Füllen» zum Gravieren, dazu Geschwindigkeit (mm/s) und Leistung (%). Werte siehe <a href=\"/phbern-gcc#gcc-werte\">Einstellungen</a>.</li><li><strong>Werte jedes Mal prüfen.</strong> LightBurn behält die Einstellungen der Person, die zuletzt gelasert hat.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-3",
+    "accordion": true,
+    "title": "3. Senden und starten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>In LightBurn auf «Start» klicken. Der Auftrag startet noch nicht, er erscheint auf dem Display des Lasers als «&lt;untitled&gt;».</li><li>Prüfen, ob Speed und Power auf dem Display zu den Einstellungen in LightBurn passen. Daran ist der eigene Auftrag zu erkennen.</li><li>Absauganlage einschalten.</li><li>Am Laser «Start/Stop» drücken und den Auftrag beaufsichtigen.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-4",
+    "accordion": true,
+    "title": "4. Nach dem Lasern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen.</li><li>Teile und Reste entnehmen, kleine Reste aus dem Wabenbett entfernen.</li><li>Absauganlage und Laser ausschalten, wenn niemand mehr lasert. [VOR ORT PRUEFEN: Reihenfolge beim Ausschalten]</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gcc-werte",
+    "accordion": false,
+    "title": "Einstellungen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Einstellungen</h2><p>Aus der LightBurn-Materialbibliothek am GCC X380:</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Bearbeitung</th><th scope=\"col\">Geschwindigkeit</th><th scope=\"col\">Leistung</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>Schneiden (Linie)</td><td>4,2 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel</th><td>Gravur hell (Füllen)</td><td>70 mm/s</td><td>30 %</td></tr><tr><th scope=\"row\">Acrylglas 3 mm</th><td>Schneiden (Linie)</td><td>2,5 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Acrylglas</th><td>Gravur fein (Füllen)</td><td>55 mm/s</td><td>10 %</td></tr></tbody></table><p>Neben dem Laser steht eine Brenntest-Sammlung. Jedes Raster zeigt, wie ein Material bei verschiedenen Geschwindigkeiten und Leistungen aussieht, jeweils geschnitten und graviert. Manche Materialien brauchen statt mehr Leistung mehrere Durchgänge.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "phlu-vevor",
+  "label": "PH Luzern: Vevor",
+  "title": "PH Luzern: Vevor",
+  "sections": [
+   {
+    "id": "kopf-vevor",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>PH Luzern: Vevor</h1><p>Grosser CO2-Laser, gesteuert mit LightBurn. Am Gerät rechts: Not-Halt, Schlüsselschalter und Bedienfeld mit den Tasten «Frame» (Rahmen abfahren) und «Origin» (Startpunkt). Auf dem Whiteboard daneben hängen die Materialtafeln und die Infoblätter.</p><figure class=\"schritt\"><img src=\"/assets/vevor-bedienfeld.jpg\" alt=\"Bedienfeld des Vevor-Lasers: roter Not-Halt, Schlüsselschalter, Display und Tasten wie Reset, Speed, Min-Power, Max-Power, Origin und Frame\" width=\"700\" height=\"526\" loading=\"lazy\"><figcaption>Not-Halt, Schlüsselschalter und Bedienfeld.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-1",
+    "accordion": true,
+    "title": "1. Grafik in LightBurn",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Grafik in LightBurn importieren oder dort zeichnen.</li><li>Einstellungen aus der Materialbibliothek zuweisen: Kontur anwählen, in der Bibliothek das Material wählen und «Assign» drücken. So entsteht pro Bearbeitung eine Ebene (Layer) im Fenster «Cuts / Layers».</li><li>Fehlt die Bibliothek: Menü «Fenster» › Häkchen bei «Bibliothek». Ist sie leer, über «Laden» neu laden. Die Datei liegt auf dem Desktop des Laser-PCs.</li><li>Im Vorschau-Modus den Ablauf simulieren.</li><li>Reihenfolge im Fenster «Cuts / Layers» mit Ziehen anpassen: zuerst gravieren, zuletzt die Aussenkontur schneiden.</li></ol><p>Vor einem neuen Projekt lohnt sich ein kleines Musterstück, um die Einstellungen zu prüfen.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-2",
+    "accordion": true,
+    "title": "2. Laser vorbereiten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Laser einschalten.</li><li>Startpunkt in LightBurn festlegen («Start From»).</li><li>Material flach auf die Wabenplatte legen, bei Bedarf mit Magneten sichern.</li><li>Fokus einstellen, siehe <a href=\"/phlu-vevor#fokus\">Fokus</a>.</li><li>Rahmen abfahren («Frame»): der Laserkopf fährt den Umriss ab, ohne zu lasern. So zeigt sich, ob die Grafik auf dem Material liegt.</li><li>Absaugung einschalten.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-3",
+    "accordion": true,
+    "title": "3. Starten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Klappe schliessen.</li><li>In LightBurn «Start» klicken.</li><li>Den Auftrag beaufsichtigen. Bei Gefahr den Not-Halt drücken.</li><li>Nach dem Ende warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen und die Teile entnehmen.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fokus",
+    "accordion": false,
+    "title": "Fokus",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Fokus</h2><p>Der Laserstrahl wird durch eine Linse gebündelt. Am feinsten und stärksten ist er im Brennpunkt. Der Abstand wird eingestellt, indem die Plattform hoch- oder heruntergefahren wird. Gemessen wird von der Unterkante des Laserkopfs.</p><div class=\"diagram\" tabindex=\"0\" role=\"region\" aria-label=\"Grafik Fokusabstand, bei Bedarf seitlich verschiebbar\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 230\" role=\"img\" aria-labelledby=\"fk-t fk-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"fk-t\">Fokusabstand am Vevor-Laser</title><desc id=\"fk-d\">Links Gravieren: zwischen Unterkante des Laserkopfs und Materialoberfläche liegen 13 mm, der Brennpunkt liegt auf der Oberfläche. Rechts Schneiden: der Brennpunkt liegt in der Mitte des Materials, der Abstand d ist 13 mm minus die halbe Materialdicke.</desc>\n<text x=\"150\" y=\"22\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\">Gravieren</text>\n<path d=\"M125,40 h50 v60 l-10,30 h-30 l-10,-30 z\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><text x=\"150\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" fill=\"#646464\">Laserkopf</text>\n<path d=\"M150,130 L150,182\" stroke=\"#c0392b\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<rect x=\"60\" y=\"182\" width=\"180\" height=\"14\" fill=\"#e8d8b8\" stroke=\"#8a6d3b\"/><circle cx=\"150\" cy=\"182\" r=\"4\" fill=\"#c0392b\"/>\n<path d=\"M200,130 L200,182\" stroke=\"#087d84\" stroke-width=\"1.5\"/><path d=\"M194,130 h12 M194,182 h12\" stroke=\"#087d84\" stroke-width=\"1.5\"/><text x=\"210\" y=\"161\" font-size=\"15\" font-weight=\"bold\" fill=\"#087d84\">13 mm</text>\n<text x=\"150\" y=\"220\" font-size=\"14\" text-anchor=\"middle\">Brennpunkt auf der Oberfläche</text>\n<text x=\"470\" y=\"22\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\">Schneiden</text>\n<path d=\"M445,40 h50 v60 l-10,30 h-30 l-10,-30 z\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><text x=\"470\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" fill=\"#646464\">Laserkopf</text>\n<path d=\"M470,130 L470,182\" stroke=\"#c0392b\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<rect x=\"380\" y=\"164\" width=\"180\" height=\"36\" fill=\"#e8d8b8\" stroke=\"#8a6d3b\"/><circle cx=\"470\" cy=\"182\" r=\"4\" fill=\"#c0392b\"/>\n<path d=\"M520,130 L520,164\" stroke=\"#087d84\" stroke-width=\"1.5\"/><path d=\"M514,130 h12 M514,164 h12\" stroke=\"#087d84\" stroke-width=\"1.5\"/><text x=\"530\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#087d84\">d</text>\n<text x=\"470\" y=\"220\" font-size=\"14\" text-anchor=\"middle\">d = 13 mm − Materialdicke ÷ 2</text></svg></div><ul><li><strong>Gravieren:</strong> Brennpunkt auf der Oberfläche, Abstand 13 mm. Bei Holz gibt ein etwas grösserer Abstand mehr Kontrast, besonders bei Weichhölzern.</li><li><strong>Schneiden:</strong> Brennpunkt in der Mitte des Materials, Abstand d = 13 mm − Materialdicke ÷ 2.</li></ul><table><thead><tr><th scope=\"col\">Materialdicke</th><th scope=\"col\">Abstand d zum Schneiden</th></tr></thead><tbody><tr><td>1,5 mm</td><td>12,25 mm</td></tr><tr><td>2 mm</td><td>12 mm</td></tr><tr><td>3 mm</td><td>11,5 mm</td></tr><tr><td>4 mm</td><td>11 mm</td></tr></tbody></table>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-werte",
+    "accordion": false,
+    "title": "Materialtafeln",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Materialtafeln</h2><p>Werte von den Materialtafeln am Whiteboard (Oktober 2023, Gravurwerte für Pappel von Hand korrigiert). Die Leistung wird in LightBurn als Maximal- und Minimalwert eingetragen.</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Schneiden</th><th scope=\"col\">Gravieren</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Birke 2 mm</th><td>25 mm/s, 80 / 20 %</td><td>130 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 3 mm</th><td>28 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>20 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">MDF 3 mm</th><td>12 mm/s, 80 / 20 %</td><td>120 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Graukarton 1,5 mm</th><td>40 mm/s, 72,5 / 20 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Wellkarton 1,5 mm</th><td>200 mm/s, 65 / 15 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Acrylglas 4 mm</th><td>8 mm/s, 80 / 55 %</td><td>120 mm/s, 20 / 15 %</td></tr></tbody></table><p>Neben jeder Tafel hängt ein Testraster: Felder mit verschiedenen Geschwindigkeiten (senkrecht) und Leistungen (waagrecht). Daran lässt sich ablesen, wie dunkel eine Gravur wird.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-bilder",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": true,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<figure class=\"schritt\"><img src=\"/assets/materialtafeln.jpg\" alt=\"Whiteboard mit gelaserten Materialtafeln aus Sperrholz, Karton, MDF und Acrylglas, je mit Werten und Testraster\" width=\"880\" height=\"650\" loading=\"lazy\"><figcaption>Materialtafeln am Whiteboard.</figcaption></figure>"
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<figure class=\"schritt\"><img src=\"/assets/testraster-acryl.jpg\" alt=\"Testraster auf Acrylglas, Geschwindigkeit 50 bis 200 mm/s, Leistung 10 bis 35 Prozent\" width=\"700\" height=\"525\" loading=\"lazy\"><figcaption>Testraster Acrylglas.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "laserbox",
+  "label": "LaserBox",
+  "title": "LaserBox",
+  "sections": [
+   {
+    "id": "kopf-laserbox",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>LaserBox</h1><p>Kleiner CO2-Laser von Makeblock mit einer Arbeitsfläche von ca. 500 × 300 mm. Gesteuert wird er mit der Software <a href=\"https://www.xtool.com/pages/software\" rel=\"noopener noreferrer\" target=\"_blank\">xTool Creative Space</a> oder der älteren LaserBox-Software. [VOR ORT PRUEFEN: ob auch an der PHBern eine LaserBox steht]</p><figure class=\"schritt\"><img src=\"/assets/laserbox.jpg\" alt=\"Weiss-schwarze Makeblock LaserBox mit Glasdeckel auf einem Holzkorpus, rechts daneben die Absauganlage\" width=\"1000\" height=\"400\" loading=\"lazy\"><figcaption>LaserBox an der PH Luzern, rechts die Absauganlage.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "verbinden",
+    "accordion": false,
+    "title": "Verbinden und lasern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Verbinden und lasern</h2><ol><li>Laser per USB- oder Netzwerkkabel am Computer einstecken.</li><li>Laser einschalten.</li><li>Erst wenn der Ring am Drehknopf nicht mehr blinkt, sondern ruhig leuchtet, die Software starten.</li><li>Grafik importieren, Material und Bearbeitung (Schneiden oder Gravieren) wählen.</li><li>Absaugung einschalten, Auftrag senden und am Laser mit dem Drehknopf starten. Beaufsichtigen.</li></ol><p>Es gelten die Regeln unter <a href=\"/lasercut#wichtig\">Wichtig</a>.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "impressum",
+  "label": "Impressum",
+  "title": "Impressum",
+  "sections": [
+   {
+    "id": "impressum",
+    "accordion": false,
+    "title": "Impressum",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Impressum</h1><p>Grundlage sind die Google-Site «Lasercut» des Fachbereichs Design &amp; Technik (Lukas Jordi und Alain Wittwer) und die Infoblätter beim Vevor-Laser der PH Luzern. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude (KI-Assistent von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Fotos aus den Ateliers der PHBern und der PH Luzern.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

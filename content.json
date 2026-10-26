@@ -39,9 +39,9 @@
     ]
    },
    {
-    "id": "materialien",
+    "id": "vorgehen",
     "accordion": false,
-    "title": "Materialien",
+    "title": "Vorgehen",
     "anchor": "",
     "gallery": false,
     "cells": [
@@ -49,7 +49,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Materialien</h2><p>Geeignet sind die Materialien in der linken Spalte. Beschichtete Metalle lassen sich nur gravieren. Es dürfen keine giftigen Dämpfe entstehen, darum muss das Material immer bekannt sein.</p><table><thead><tr><th scope=\"col\">Geeignet</th><th scope=\"col\">Verboten</th></tr></thead><tbody><tr><td>Holz, Sperrholz, MDF, Karton, Papier<br>Kunststoffe: Acrylglas (PMMA), PE, PP, PET<br>Textilien: Baumwolle, Kunstfasern ohne Chlorverbindungen, Naturleder ohne Chrom</td><td><strong>PVC, Vinyl, Neopren (CR)</strong> und andere chlorhaltige Kunststoffe: sie erzeugen giftige und ätzende Gase<br>Kunstleder (meist PVC)<br>Polycarbonat (PC, Makrolon): sieht aus wie Acrylglas, verfärbt und entzündet sich<br>ABS, PTFE (Teflon), Glas- und Kohlefaser-Verbundstoffe<br>Unbekannte Kunststoffe</td></tr></tbody></table><p><a href=\"https://wiki.happylab.at/w/Laser_Cutter#Materialien\" rel=\"noopener noreferrer\" target=\"_blank\">Weitere Materialien (Happylab)</a> · <a href=\"http://www.barthmann-recycling.de/files/erkennekunststoffe.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Kunststoffe erkennen (PDF)</a> · <a href=\"https://www.lasercutteninderschule.ch/\" rel=\"noopener noreferrer\" target=\"_blank\">Lasercutten in der Schule</a>: Ideen, Blog und Tipps</p>"
+        "html": "<h2>Vorgehen</h2><ol><li><a href=\"/vektorgrafik\">Vektorgrafik erstellen</a>: zeichnen, Kiste generieren oder Bild vektorisieren. Als SVG oder DXF speichern.</li><li>Gerät wählen und die Anleitung öffnen: <a href=\"/phbern-gcc\">GCC X380</a> (PHBern), <a href=\"/phlu-vevor\">Vevor</a> (PH Luzern) oder <a href=\"/laserbox\">LaserBox</a> (beide).</li><li>In der Software jeder Ebene die Bearbeitung zuweisen: Linie zum Schneiden, Füllen zum Gravieren, Werte aus der Materialbibliothek.</li><li>Material einlegen, Fokus einstellen, Rahmen abfahren.</li><li>Absaugung einschalten, starten und beim Gerät bleiben.</li><li>Rauch abziehen lassen, Teile entnehmen, Reste entfernen.</li></ol><p>Anregungen für eigene Projekte: <a href=\"/ideen\">Ideensammlung</a>.</p>"
        }
       ]
      }
@@ -84,6 +84,23 @@
        {
         "type": "html",
         "html": "<h2>Geräte an PHBern und PH Luzern</h2><table><thead><tr><th scope=\"col\">Hochschule</th><th scope=\"col\">Gerät</th><th scope=\"col\">Software</th><th scope=\"col\">Fokus</th><th scope=\"col\">Anleitung</th></tr></thead><tbody><tr><th scope=\"row\">PHBern</th><td>GCC LaserPro X380, CO2-Laser, Arbeitsfläche ca. 960 × 610 mm</td><td>LightBurn mit GCC Connector, auf dem PC beim Laser</td><td>Taste «Auto Focus»</td><td><a href=\"/phbern-gcc\">GCC X380</a></td></tr><tr><th scope=\"row\">PH Luzern</th><td>Vevor CO2-Laser [VOR ORT PRUEFEN: Leistung und Arbeitsfläche]</td><td>LightBurn</td><td>von Hand, Abstand 13 mm</td><td><a href=\"/phlu-vevor\">Vevor</a></td></tr><tr><th scope=\"row\">PHBern und PH Luzern</th><td>Makeblock LaserBox, CO2-Laser, Arbeitsfläche ca. 500 × 300 mm</td><td>xTool Creative Space oder LaserBox</td><td>[VOR ORT PRUEFEN: Fokus LaserBox]</td><td><a href=\"/laserbox\">LaserBox</a></td></tr></tbody></table><p>Die Einstellungen für Geschwindigkeit und Leistung gelten nur für das jeweilige Gerät. Werte nie von einem Laser auf den anderen übertragen.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "materialien",
+    "accordion": false,
+    "title": "Materialien",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Materialien</h2><p>Geeignet sind die Materialien in der linken Spalte. Beschichtete Metalle lassen sich nur gravieren. Es dürfen keine giftigen Dämpfe entstehen, darum muss das Material immer bekannt sein.</p><table><thead><tr><th scope=\"col\">Geeignet</th><th scope=\"col\">Verboten</th></tr></thead><tbody><tr><td>Holz, Sperrholz, MDF, Karton, Papier<br>Kunststoffe: Acrylglas (PMMA), PE, PP, PET<br>Textilien: Baumwolle, Kunstfasern ohne Chlorverbindungen, Naturleder ohne Chrom</td><td><strong>PVC, Vinyl, Neopren (CR)</strong> und andere chlorhaltige Kunststoffe: sie erzeugen giftige und ätzende Gase<br>Kunstleder (meist PVC)<br>Polycarbonat (PC, Makrolon): sieht aus wie Acrylglas, verfärbt und entzündet sich<br>ABS, PTFE (Teflon), Glas- und Kohlefaser-Verbundstoffe<br>Unbekannte Kunststoffe</td></tr></tbody></table><p><a href=\"https://wiki.happylab.at/w/Laser_Cutter#Materialien\" rel=\"noopener noreferrer\" target=\"_blank\">Weitere Materialien (Happylab)</a> · <a href=\"http://www.barthmann-recycling.de/files/erkennekunststoffe.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Kunststoffe erkennen (PDF)</a> · <a href=\"https://www.lasercutteninderschule.ch/\" rel=\"noopener noreferrer\" target=\"_blank\">Lasercutten in der Schule</a>: Ideen, Blog und Tipps</p>"
        }
       ]
      }
@@ -249,7 +266,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<ol><li>LightBurn starten und die Vektorgrafik importieren.</li><li>Jeder Ebene die Bearbeitung zuweisen: Modus «Linie» zum Schneiden, «Füllen» zum Gravieren, dazu Geschwindigkeit (mm/s) und Leistung (%). Werte siehe <a href=\"/phbern-gcc#gcc-werte\">Einstellungen</a>.</li><li><strong>Werte jedes Mal prüfen.</strong> LightBurn behält die Einstellungen der Person, die zuletzt gelasert hat.</li></ol><figure class=\"schritt\"><img src=\"/assets/lightburn-modus.jpg\" alt=\"LightBurn-Fenster Schnitte/Ebenen mit Ebene C01, Auswahl des Modus: Linie, Füllen, Versatzfüllung\" width=\"823\" height=\"162\" loading=\"lazy\"><figcaption>Modus der Ebene in LightBurn wählen.</figcaption></figure>"
+        "html": "<ol><li>LightBurn starten und die Vektorgrafik importieren.</li><li>Jeder Ebene die Bearbeitung zuweisen: Modus «Linie» zum Schneiden, «Füllen» zum Gravieren, dazu Geschwindigkeit (mm/s) und Leistung (%). Werte siehe <a href=\"/phbern-gcc#gcc-werte\">Materialwerte</a>.</li><li><strong>Werte jedes Mal prüfen.</strong> LightBurn behält die Einstellungen der Person, die zuletzt gelasert hat.</li></ol><figure class=\"schritt\"><img src=\"/assets/lightburn-modus.jpg\" alt=\"LightBurn-Fenster Schnitte/Ebenen mit Ebene C01, Auswahl des Modus: Linie, Füllen, Versatzfüllung\" width=\"823\" height=\"162\" loading=\"lazy\"><figcaption>Modus der Ebene in LightBurn wählen.</figcaption></figure>"
        }
       ]
      }
@@ -292,7 +309,7 @@
    {
     "id": "gcc-werte",
     "accordion": false,
-    "title": "Einstellungen",
+    "title": "Materialwerte",
     "anchor": "",
     "gallery": false,
     "cells": [
@@ -300,7 +317,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Einstellungen</h2><p>Aus der LightBurn-Materialbibliothek am GCC X380:</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Bearbeitung</th><th scope=\"col\">Geschwindigkeit</th><th scope=\"col\">Leistung</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>Schneiden (Linie)</td><td>4,2 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel</th><td>Gravur hell (Füllen)</td><td>70 mm/s</td><td>30 %</td></tr><tr><th scope=\"row\">Acrylglas 3 mm</th><td>Schneiden (Linie)</td><td>2,5 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Acrylglas</th><td>Gravur fein (Füllen)</td><td>55 mm/s</td><td>10 %</td></tr></tbody></table><p>Neben dem Laser steht eine Brenntest-Sammlung. Jedes Raster zeigt, wie ein Material bei verschiedenen Geschwindigkeiten und Leistungen aussieht, jeweils geschnitten und graviert. Manche Materialien brauchen statt mehr Leistung mehrere Durchgänge.</p>"
+        "html": "<h2>Materialwerte</h2><p>Aus der LightBurn-Materialbibliothek am GCC X380:</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Bearbeitung</th><th scope=\"col\">Geschwindigkeit</th><th scope=\"col\">Leistung</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>Schneiden (Linie)</td><td>4,2 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel</th><td>Gravur hell (Füllen)</td><td>70 mm/s</td><td>30 %</td></tr><tr><th scope=\"row\">Acrylglas 3 mm</th><td>Schneiden (Linie)</td><td>2,5 mm/s</td><td>100 %</td></tr><tr><th scope=\"row\">Acrylglas</th><td>Gravur fein (Füllen)</td><td>55 mm/s</td><td>10 %</td></tr></tbody></table><p>Neben dem Laser steht eine Brenntest-Sammlung. Jedes Raster zeigt, wie ein Material bei verschiedenen Geschwindigkeiten und Leistungen aussieht, jeweils geschnitten und graviert. Manche Materialien brauchen statt mehr Leistung mehrere Durchgänge.</p>"
        }
       ]
      }
@@ -375,7 +392,24 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<ol><li>Klappe schliessen.</li><li>In LightBurn «Start» klicken.</li><li>Den Auftrag beaufsichtigen. Bei Gefahr den Not-Halt drücken.</li><li>Nach dem Ende warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen und die Teile entnehmen.</li></ol>"
+        "html": "<ol><li>Klappe schliessen.</li><li>In LightBurn «Start» klicken.</li><li>Den Auftrag beaufsichtigen. Bei Gefahr den Not-Halt drücken.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vevor-4",
+    "accordion": true,
+    "title": "4. Nach dem Lasern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen.</li><li>Teile und Reste entnehmen, kleine Reste aus der Wabenplatte entfernen.</li><li>Absaugung und Laser ausschalten, wenn niemand mehr lasert.</li></ol>"
        }
       ]
      }
@@ -401,7 +435,7 @@
    {
     "id": "vevor-werte",
     "accordion": false,
-    "title": "Materialtafeln",
+    "title": "Materialwerte",
     "anchor": "",
     "gallery": false,
     "cells": [
@@ -409,7 +443,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Materialtafeln</h2><p>Werte von den Materialtafeln am Whiteboard (Oktober 2023, Gravurwerte für Pappel von Hand korrigiert). Die Leistung wird in LightBurn als Maximal- und Minimalwert eingetragen.</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Schneiden</th><th scope=\"col\">Gravieren</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Birke 2 mm</th><td>25 mm/s, 80 / 20 %</td><td>130 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 3 mm</th><td>28 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>20 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">MDF 3 mm</th><td>12 mm/s, 80 / 20 %</td><td>120 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Graukarton 1,5 mm</th><td>40 mm/s, 72,5 / 20 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Wellkarton 1,5 mm</th><td>200 mm/s, 65 / 15 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Acrylglas 4 mm</th><td>8 mm/s, 80 / 55 %</td><td>120 mm/s, 20 / 15 %</td></tr></tbody></table><p>Neben jeder Tafel hängt ein Testraster: Felder mit verschiedenen Geschwindigkeiten (senkrecht) und Leistungen (waagrecht). Daran lässt sich ablesen, wie dunkel eine Gravur wird.</p>"
+        "html": "<h2>Materialwerte</h2><p>Werte von den Materialtafeln am Whiteboard (Oktober 2023, Gravurwerte für Pappel von Hand korrigiert). Die Leistung wird in LightBurn als Maximal- und Minimalwert eingetragen.</p><table><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Schneiden</th><th scope=\"col\">Gravieren</th></tr></thead><tbody><tr><th scope=\"row\">Sperrholz Birke 2 mm</th><td>25 mm/s, 80 / 20 %</td><td>130 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 3 mm</th><td>28 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Sperrholz Pappel 4 mm</th><td>20 mm/s, 80 / 20 %</td><td>130 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">MDF 3 mm</th><td>12 mm/s, 80 / 20 %</td><td>120 mm/s, 20 / 15 %</td></tr><tr><th scope=\"row\">Graukarton 1,5 mm</th><td>40 mm/s, 72,5 / 20 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Wellkarton 1,5 mm</th><td>200 mm/s, 65 / 15 %</td><td>180 mm/s, 15 / 10 %</td></tr><tr><th scope=\"row\">Acrylglas 4 mm</th><td>8 mm/s, 80 / 55 %</td><td>120 mm/s, 20 / 15 %</td></tr></tbody></table><p>Neben jeder Tafel hängt ein Testraster: Felder mit verschiedenen Geschwindigkeiten (senkrecht) und Leistungen (waagrecht). Daran lässt sich ablesen, wie dunkel eine Gravur wird.</p>"
        }
       ]
      }
@@ -492,6 +526,149 @@
   ]
  },
  {
+  "slug": "ideen",
+  "label": "Ideensammlung",
+  "title": "Ideensammlung Lasercut",
+  "sections": [
+   {
+    "id": "kopf-ideen",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Ideensammlung</h1><p>Geordnet nach den Themenfeldern des Lehrplans 21 (TTG): Spiel/Freizeit, Mode/Bekleidung, Bau/Wohnbereich, Mechanik/Transport, Elektrizität/Energie. Der Steckbrief nennt den Zyklus, den Aufwand an der Maschine und das Prinzip, das die Idee nutzt.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess, keine Bauanleitungen: Bedürfnis klären, Varianten skizzieren, Prototyp herstellen, testen, verbessern.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "prinzipien",
+    "accordion": false,
+    "title": "Was der Laser gut kann",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Was der Laser gut kann</h2><p class=\"themenfeld-hinweis\">Fünf Prinzipien, auf die sich die Ideen stützen. Farben wie in der Laser-Software: rot schneiden, grau gravieren, blau ritzen.</p><div class=\"prinzipien\"><div class=\"prinzip\" id=\"p-farben\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-farben-g-t p-farben-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-farben-g-t\">Schneiden, Gravieren, Ritzen</title><desc id=\"p-farben-g-d\">Ein Anhänger als Plan: rote Aussenlinie wird geschnitten, graue Fläche graviert, blaue Linie geritzt.</desc><rect x=\"60\" y=\"20\" width=\"140\" height=\"110\" rx=\"14\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"40\" r=\"6\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2\"/><path d=\"M95,95 l20,-35 l20,35 l20,-35 l20,35 z\" fill=\"#888\"/><path d=\"M80,115 h100\" stroke=\"#2c6fbb\" stroke-width=\"2\"/><text x=\"210\" y=\"40\" font-size=\"11\" fill=\"#c0392b\">Linie</text><text x=\"210\" y=\"80\" font-size=\"11\" fill=\"#888\">Füllen</text><text x=\"210\" y=\"120\" font-size=\"11\" fill=\"#2c6fbb\">Ritzen</text></svg><div class=\"text\"><h3>Schneiden, Gravieren, Ritzen</h3><p>Jede Bearbeitung bekommt eine eigene Farbe und damit eine eigene Ebene. Rot schneiden, Fläche gravieren, feine Linie mit wenig Leistung ritzen, etwa für Faltlinien.</p></div></div><div class=\"prinzip\" id=\"p-stecken\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-stecken-g-t p-stecken-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-stecken-g-t\">Stecken</title><desc id=\"p-stecken-g-d\">Zwei Platten mit je einem Schlitz werden über Kreuz ineinandergesteckt. Schlitzbreite gleich Materialdicke.</desc><rect x=\"30\" y=\"40\" width=\"110\" height=\"80\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"2\"/><rect x=\"80\" y=\"40\" width=\"10\" height=\"40\" fill=\"#f5f8f8\" stroke=\"#5a3a22\" stroke-width=\"2\"/><rect x=\"150\" y=\"40\" width=\"80\" height=\"80\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"2\"/><rect x=\"185\" y=\"80\" width=\"10\" height=\"40\" fill=\"#f5f8f8\" stroke=\"#5a3a22\" stroke-width=\"2\"/><text x=\"60\" y=\"140\" font-size=\"12\">Schlitz = Materialdicke</text></svg><div class=\"text\"><h3>Stecken</h3><p>Platten mit Schlitzen werden über Kreuz gesteckt, ganz ohne Leim. Schlitzbreite gleich Materialdicke. Weil der Laser etwa 0,1 mm wegbrennt (Kerf), zuerst ein Teststück schneiden.</p></div></div><div class=\"prinzip\" id=\"p-zinken\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-zinken-g-t p-zinken-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-zinken-g-t\">Fingerzinken</title><desc id=\"p-zinken-g-d\">Zwei Plattenkanten mit abwechselnden Zinken, die genau ineinandergreifen.</desc><path d=\"M30,30 h80 v20 h-20 v20 h20 v20 h-20 v20 h20 v20 h-80 z\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"2\"/><path d=\"M230,30 h-120 v20 h-20 v20 h20 v20 h-20 v20 h20 v20 h120 z\" fill=\"#e6cfa8\" stroke=\"#5a3a22\" stroke-width=\"2\" transform=\"translate(16,0)\"/><text x=\"40\" y=\"146\" font-size=\"12\">greifen ineinander, halten mit Leim</text></svg><div class=\"text\"><h3>Fingerzinken</h3><p>Kisten und Gehäuse entstehen aus Platten mit Zinken. Der Box-Generator im <a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool</a> rechnet Zinken und Kerf aus der Materialstärke.</p></div></div><div class=\"prinzip\" id=\"p-biegen\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-biegen-g-t p-biegen-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-biegen-g-t\">Biegegelenk</title><desc id=\"p-biegen-g-d\">Eine Holzplatte mit vielen versetzten Schnittlinien, die sich dadurch biegen lässt.</desc><rect x=\"20\" y=\"40\" width=\"220\" height=\"70\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"2\"/><path d=\"M80,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M88,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M96,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M104,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M112,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M120,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M128,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M136,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M144,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M152,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M160,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M168,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M176,56 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><path d=\"M184,44 v50\" stroke=\"#c0392b\" stroke-width=\"1.5\"/><text x=\"40\" y=\"132\" font-size=\"12\">viele feine Schnitte machen Holz biegsam</text></svg><div class=\"text\"><h3>Biegegelenk</h3><p>Viele versetzte Schnitte machen eine Holzplatte biegsam (living hinge). So entstehen runde Ecken an Kisten, Buchdeckel oder Armreifen.</p></div></div><div class=\"prinzip\" id=\"p-lagen\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-lagen-g-t p-lagen-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-lagen-g-t\">Lagen stapeln</title><desc id=\"p-lagen-g-d\">Seitenansicht: mehrere Platten mit kleiner werdendem Umriss übereinander, wie ein Relief.</desc><rect x=\"30\" y=\"118\" width=\"200\" height=\"12\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><rect x=\"48\" y=\"104\" width=\"164\" height=\"12\" fill=\"#e6cfa8\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"90\" width=\"128\" height=\"12\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"76\" width=\"92\" height=\"12\" fill=\"#e6cfa8\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><rect x=\"102\" y=\"62\" width=\"56\" height=\"12\" fill=\"#d9b98c\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><rect x=\"120\" y=\"48\" width=\"20\" height=\"12\" fill=\"#e6cfa8\" stroke=\"#5a3a22\" stroke-width=\"1.5\"/><text x=\"60\" y=\"142\" font-size=\"12\">jede Lage eine Platte</text></svg><div class=\"text\"><h3>Lagen stapeln</h3><p>Aus flachen Platten werden Körper: Höhenlinien-Reliefs, Labyrinthe, Rahmen oder Figuren aus geschichtetem Karton.</p></div></div></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-spiel",
+    "accordion": false,
+    "title": "Spiel/Freizeit",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Spiel/Freizeit</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-steckfigur.png\" alt=\"Tier aus Sperrholz: ein Körper mit Hals und Kopf, quer dazu zwei gesteckte Beinpaare\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Steckfiguren</h3><p>Tiere oder Figuren aus zwei bis drei Teilen, die über Kreuz gesteckt werden. Guter Einstieg: Umriss zeichnen, Schlitze in Materialdicke einfügen. Lasern übernimmt die Lehrperson.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 1 und 2</li><li>Aufwand: kurz</li><li>Prinzip: Stecken</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-labyrinth.png\" alt=\"Quadratisches Kugellabyrinth aus zwei Lagen Holz, oben ausgeschnittene Gänge, darin eine Kugel\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Kugellabyrinth</h3><p>Bodenplatte und darüber eine Platte mit ausgeschnittenen Gängen. Die Gänge etwas breiter als die Kugel planen. Mit einer dritten Lage als Deckel aus Acrylglas wird ein Geduldspiel daraus.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Lagen stapeln</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-mode",
+    "accordion": false,
+    "title": "Mode/Bekleidung",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Mode/Bekleidung</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-schmuck.png\" alt=\"Drei Anhänger: rund mit Lochmuster aus Holz, Sechseck aus dunklerem Holz, Stern aus türkisem Acrylglas\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Anhänger und Schmuck</h3><p>Aus Sperrholz oder Acrylglas, mit Ausschnitten und Gravur. Das Loch für Schnur oder Ring nicht zu nah an den Rand setzen, sonst bricht es aus.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Schneiden, Gravieren</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-filz.png\" alt=\"Zwei graue Filzteile einer Tasche mit Stichlöchern am Rand, daneben eine Lasche aus Leder\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Filz und Leder zuschneiden</h3><p>Der Laser schneidet Filz und chromfreies Leder präzise zu, auch die Stichlöcher zum Nähen. Kanten von Kunstfasern verschmelzen und fransen nicht aus. Material vorher auf der Liste prüfen.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Schneiden</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-bau",
+    "accordion": false,
+    "title": "Bau/Wohnbereich",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Bau/Wohnbereich</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-kiste.png\" alt=\"Offene Holzkiste mit sichtbaren Fingerzinken an den Ecken\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Kiste mit Fingerzinken</h3><p>Mit dem Box-Generator im Vektortool in wenigen Minuten erstellt: Masse, Materialstärke und Kerf eingeben. Fächer, Deckel oder eine Gravur auf der Front ergänzen.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Fingerzinken</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-relief.png\" alt=\"Relief aus sieben gestapelten Holzlagen mit welligen Umrissen, wie eine Insel mit Höhenlinien\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Höhenlinien-Relief</h3><p>Landschaft, Berg oder Fantasieinsel aus gestapelten Lagen. Jede Höhenlinie wird eine Platte. Vorlagen liefern die Höhenlinien auf <a href=\"https://map.geo.admin.ch/\" rel=\"noopener noreferrer\" target=\"_blank\">map.geo.admin.ch</a>. Mit Karton günstig und schnell.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Lagen stapeln</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-mechanik",
+    "accordion": false,
+    "title": "Mechanik/Transport",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Mechanik/Transport</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-zahnraeder.png\" alt=\"Drei Zahnräder aus Sperrholz auf einem Brett, mit Rundstäben als Achsen\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Zahnräder aus Sperrholz</h3><p>Zahnräder mit dem <a href=\"https://evolventdesign.com/pages/spur-gear-generator\" rel=\"noopener noreferrer\" target=\"_blank\">Spur Gear Generator</a> erzeugen und auf ein Brett mit Rundstäben stecken. Übersetzungen ausprobieren und zählen.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: kurz</li><li>Prinzip: Stecken</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-automat.png\" alt=\"Holzkasten mit Kurbel und Welle, eine Nocke hebt einen Stab, oben sitzt ein Vogel aus Holz\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Kurbelautomat</h3><p>Eine Kurbelwelle mit Nocke hebt und senkt eine Figur. Gehäuse aus Steck- oder Zinkenplatten, Welle aus Rundstab. Die Form der Nocke bestimmt die Bewegung.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Stecken, Fingerzinken</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-energie",
+    "accordion": false,
+    "title": "Elektrizität/Energie",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Elektrizität/Energie</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-leuchtschild.png\" alt=\"Acrylglasplatte mit leuchtend graviertem Stern, steckt in einem Holzsockel\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Leuchtschild aus Acrylglas</h3><p>Eine Gravur auf Acrylglas leuchtet, wenn Licht von der Kante eingespeist wird. LED-Streifen im Holzsockel, die Platte steckt in einem Schlitz.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Gravieren, Stecken</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-lamellen.png\" alt=\"Leuchte aus zehn radial gesteckten Holzrippen auf einer runden Bodenplatte, innen ein Leuchtmittel\" width=\"900\" height=\"675\" loading=\"lazy\"><div class=\"text\"><h3>Lamellenleuchte</h3><p>Rippen werden radial in eine Bodenplatte gesteckt. Nur mit LED-Leuchtmittel und mit Abstand zwischen Leuchtmittel und Holz.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Stecken</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "weiter",
+    "accordion": false,
+    "title": "Weitere Quellen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Weitere Quellen</h2><ul><li><a href=\"https://www.lasercutteninderschule.ch/\" rel=\"noopener noreferrer\" target=\"_blank\">Lasercutten in der Schule</a>: Ideen, Blog und Tipps</li><li><a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool</a>, <a href=\"https://www.makercase.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Makercase</a>, <a href=\"https://boxes.hackerspace-bamberg.de/\" rel=\"noopener noreferrer\" target=\"_blank\">Boxes.py</a>: Kisten und Gehäuse generieren</li></ul><p class=\"bildquelle\">Vorschaubilder: eigene Renderings mit Blender.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "slug": "impressum",
   "label": "Impressum",
   "title": "Impressum",
@@ -507,7 +684,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Impressum</h1><p>Grundlage sind die Google-Site «Lasercut» des Fachbereichs Design &amp; Technik (Lukas Jordi und Alain Wittwer) und die Infoblätter beim Vevor-Laser der PH Luzern. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude (KI-Assistent von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Fotos aus den Ateliers der PHBern und der PH Luzern.</p>"
+        "html": "<h1>Impressum</h1><p>Grundlage sind die Google-Site «Lasercut» des Fachbereichs Design &amp; Technik (Lukas Jordi und Alain Wittwer) und die Infoblätter beim Vevor-Laser der PH Luzern. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude (KI-Assistent von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Fotos aus den Ateliers der PHBern und der PH Luzern. Vorschaubilder der Ideensammlung: eigene Renderings mit Blender.</p>"
        }
       ]
      }

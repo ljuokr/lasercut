@@ -491,3 +491,16 @@ figure img { display: block; width: 100%; height: auto; object-fit: contain; }
 .prose-content .galerie figure { margin: 0; }
 .galerie img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #f3f3f3; border-radius: 4px; }
 .galerie figcaption { font-size: 14px; color: #555; margin-top: 6px; }
+
+/* --- Ideensammlung --- */
+.prinzipien, .ideen { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; margin: 4px 0 28px; }
+.prinzip, .idee { border: 1px solid #dde3e4; border-radius: 6px; background: #fff; overflow: hidden; display: flex; flex-direction: column; }
+.prinzip svg { display: block; width: 100%; height: auto; max-height: 190px; background: #f5f8f8; border-bottom: 1px solid #dde3e4; }
+.prinzip .text, .idee .text { padding: 10px 14px 14px; }
+.prinzip h3, .idee h3 { font-size: 1.02em; margin: 0 0 6px; }
+.prinzip p, .idee p { margin: 0 0 8px; font-size: 0.95em; }
+.idee img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-bottom: 1px solid #dde3e4; }
+.prose-content .steckbrief { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 5px; }
+.prose-content .steckbrief li { font-size: 0.8em; background: #eef4f4; color: #2c4a4c; border-radius: 3px; padding: 2px 7px; margin: 0; }
+.prose-content .steckbrief li::before { content: none; }
+.themenfeld-hinweis { color: #555; font-size: 0.95em; margin: -6px 0 12px; }

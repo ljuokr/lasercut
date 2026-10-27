@@ -49,7 +49,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Vorgehen</h2><ol><li><a href=\"/vektorgrafik\">Vektorgrafik erstellen</a>: zeichnen, Kiste generieren oder Bild vektorisieren. Als SVG oder DXF speichern.</li><li>Gerät wählen und die Anleitung öffnen: <a href=\"/phbern-gcc\">GCC X380</a> (PHBern), <a href=\"/phlu-vevor\">Vevor</a> (PH Luzern) oder <a href=\"/laserbox\">LaserBox</a> (beide).</li><li>In der Software jeder Ebene die Bearbeitung zuweisen: Linie zum Schneiden, Füllen zum Gravieren, Werte aus der Materialbibliothek.</li><li>Material einlegen, Fokus einstellen, Rahmen abfahren.</li><li>Absaugung einschalten, starten und beim Gerät bleiben.</li><li>Rauch abziehen lassen, Teile entnehmen, Reste entfernen.</li></ol><p>Anregungen für eigene Projekte: <a href=\"/ideen\">Ideensammlung</a>.</p>"
+        "html": "<h2>Vorgehen</h2><ol><li><a href=\"/vektorgrafik\">Vektorgrafik erstellen</a>: zeichnen, z. B. Box generieren oder Bild vektorisieren. Als SVG oder DXF speichern.</li><li>Gerät wählen und die Anleitung öffnen: <a href=\"/phbern-gcc\">GCC X380</a> (PHBern), <a href=\"/phlu-vevor\">Vevor</a> (PH Luzern) oder <a href=\"/laserbox\">LaserBox</a> (beide).</li><li>In der Software jeder Ebene die Bearbeitung zuweisen: Linie zum Schneiden, Füllen zum Gravieren, Werte aus der Materialbibliothek.</li><li>Material einlegen, Fokus einstellen, Rahmen abfahren.</li><li>Absaugung einschalten, starten und beim Gerät bleiben.</li><li>Rauch abziehen lassen, Teile entnehmen, Reste entfernen.</li></ol><p>Anregungen für eigene Projekte: <a href=\"/ideen\">Ideensammlung</a>.</p>"
        }
       ]
      }

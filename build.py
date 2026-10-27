@@ -27,7 +27,7 @@ STYLE = ROOT / "style.css"
 ASSETS = ROOT / "assets"
 FONTS = ROOT / "fonts"
 
-WEBP_QUALITY = 86
+WEBP_QUALITY = 80
 
 
 # --------------------------------------------------------------------------- Bilder

@@ -83,7 +83,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Geräte an PHBern und PH Luzern</h2><table><thead><tr><th scope=\"col\">Hochschule</th><th scope=\"col\">Gerät</th><th scope=\"col\">Software</th><th scope=\"col\">Fokus</th><th scope=\"col\">Anleitung</th></tr></thead><tbody><tr><th scope=\"row\">PHBern</th><td>GCC LaserPro X380, CO2-Laser, Arbeitsfläche ca. 960 × 610 mm</td><td>LightBurn mit GCC Connector, auf dem PC beim Laser</td><td>Taste «Auto Focus»</td><td><a href=\"/phbern-gcc\">GCC X380</a></td></tr><tr><th scope=\"row\">PH Luzern</th><td>Vevor CO2-Laser [VOR ORT PRUEFEN: Leistung und Arbeitsfläche]</td><td>LightBurn</td><td>von Hand, Abstand 13 mm</td><td><a href=\"/phlu-vevor\">Vevor</a></td></tr><tr><th scope=\"row\">PHBern und PH Luzern</th><td>Makeblock LaserBox, CO2-Laser, Arbeitsfläche ca. 500 × 300 mm</td><td>xTool Creative Space oder LaserBox</td><td>Materialdicke in der Software eingeben</td><td><a href=\"/laserbox\">LaserBox</a></td></tr></tbody></table><p>Die Einstellungen für Geschwindigkeit und Leistung gelten nur für das jeweilige Gerät. Werte nie von einem Laser auf den anderen übertragen.</p>"
+        "html": "<h2>Geräte an PHBern und PH Luzern</h2><table><thead><tr><th scope=\"col\">Hochschule</th><th scope=\"col\">Gerät</th><th scope=\"col\">Software</th><th scope=\"col\">Fokus</th><th scope=\"col\">Anleitung</th></tr></thead><tbody><tr><th scope=\"row\">PHBern</th><td>GCC LaserPro X380, CO2-Laser, Arbeitsfläche ca. 960 × 610 mm</td><td>LightBurn mit GCC Connector, auf dem PC beim Laser</td><td>Taste «Auto Focus»</td><td><a href=\"/phbern-gcc\">GCC X380</a></td></tr><tr><th scope=\"row\">PH Luzern</th><td>Vevor CO2-Laser [VOR ORT PRUEFEN: Leistung und Arbeitsfläche]</td><td>LightBurn</td><td>Von Hand: Gravieren 13 mm, Schneiden 13 mm − Materialdicke ÷ 2 (<a href=\"/phlu-vevor#fokus\">Fokus</a>)</td><td><a href=\"/phlu-vevor\">Vevor</a></td></tr><tr><th scope=\"row\">PHBern und PH Luzern</th><td>Makeblock LaserBox, CO2-Laser, Arbeitsfläche ca. 500 × 300 mm</td><td>xTool Creative Space oder LaserBox</td><td>Materialdicke in der Software eingeben</td><td><a href=\"/laserbox\">LaserBox</a></td></tr></tbody></table><p>Die Einstellungen für Geschwindigkeit und Leistung gelten nur für das jeweilige Gerät. Werte nie von einem Laser auf den anderen übertragen.</p>"
        }
       ]
      }
@@ -509,7 +509,7 @@
    {
     "id": "verbinden",
     "accordion": false,
-    "title": "Verbinden und lasern",
+    "title": "Ablauf",
     "anchor": "",
     "gallery": false,
     "cells": [
@@ -517,7 +517,75 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Verbinden und lasern</h2><ol><li>Laser per USB- oder Netzwerkkabel an den Computer anschliessen.</li><li>Laser einschalten.</li><li>Erst wenn der Ring am Drehknopf nicht mehr blinkt, sondern ruhig leuchtet, die Software starten.</li><li>Material einlegen und Deckel schliessen.</li><li>Grafik importieren, Material und Bearbeitung (Schneiden oder Gravieren) wählen. Statt den Fokus einzustellen, die Materialdicke eingeben.</li><li>Absaugung einschalten, Auftrag senden und am Laser mit dem Knopf starten. Beaufsichtigen.</li></ol><p>Es gelten die Regeln unter <a href=\"/lasercut#wichtig\">Wichtig</a>.</p>"
+        "html": "<h2>Ablauf</h2><p>Die LaserBox stellt den Fokus selbst ein. Dafür braucht die Software die Materialdicke. Es gelten die Regeln unter <a href=\"/lasercut#wichtig\">Wichtig</a>.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lb-1",
+    "accordion": true,
+    "title": "1. Einschalten und verbinden",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Absaugung bereitmachen: Der Abluftschlauch muss angeschlossen sein und ins Freie oder in den Luftreiniger führen.</li><li>Laser per USB- oder Netzwerkkabel an den Computer anschliessen.</li><li>Laser einschalten.</li><li>Warten, bis der Ring am Drehknopf nicht mehr blinkt, sondern ruhig leuchtet.</li><li>xTool Creative Space öffnen, «Connect Device» klicken und die LaserBox in der Liste wählen.</li><li>Als Bearbeitungsmodus «Laser flat» wählen.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lb-2",
+    "accordion": true,
+    "title": "2. Material und Grafik",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Material wählen: Platten von xTool oder Makeblock stehen in der Liste. Für alle anderen Materialien «User-defined material» wählen.</li><li>Materialdicke eingeben. Mit «Quick-measure» misst die Software sie selbst. Klappt das nicht, die Dicke mit der Schieblehre messen und von Hand eintragen.</li><li>Material flach auf die Grundplatte legen, Deckel schliessen.</li><li>Grafik importieren und auf der Arbeitsfläche an die gewünschte Stelle schieben.</li><li>Für jedes Objekt die Bearbeitung wählen: «Cut» (Schneiden), «Engrave» (Gravieren) oder «Score» (Ritzen). Objekte, die nicht gelasert werden sollen, auf «Ignore» stellen.</li><li>Werte festlegen: gespeicherte Einstellung wählen oder bei «Manual setting» Leistung (Power), Geschwindigkeit (Speed) und Durchgänge (Pass) eintragen. Bei neuem Material zuerst ein kleines Teststück lasern.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lb-3",
+    "accordion": true,
+    "title": "3. Starten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Absaugung einschalten.</li><li>In der Software «Process» klicken. Es öffnet sich eine Vorschau: prüfen, ob alles auf dem Material liegt.</li><li>In der Vorschau oben rechts erneut «Process» klicken. Der Auftrag wird an den Laser gesendet.</li><li>Am Laser den Knopf drücken, erst dann startet der Auftrag. Abbrechen geht vorher mit «Cancel».</li><li>Den Auftrag beaufsichtigen und den Deckel geschlossen halten.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lb-4",
+    "accordion": true,
+    "title": "4. Nach dem Lasern",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Warten, bis der Rauch abgesaugt ist, dann den Deckel öffnen.</li><li>Teile und Reste entnehmen, kleine Reste von der Grundplatte entfernen.</li><li>Laser und Absaugung ausschalten, wenn niemand mehr lasert.</li></ol>"
        }
       ]
      }

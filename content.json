@@ -334,7 +334,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<ol><li>Warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen.</li><li>Teile und Reste entnehmen, kleine Reste aus dem Wabenplatte entfernen.</li><li>Wenn niemand mehr lasert: zuerst den Laser am Hauptschalter ausschalten, er schaltet das Kühlgerät mit aus. Die Absaugung zuletzt ausschalten, wenn kein Rauch mehr im Gerät ist. Das Kühlgerät läuft nach dem <a href=\"https://gccworld.com/data/file/upload/UserManual/Laser/X252_X380-User-Manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Handbuch des X380</a> laufen, bevor der Laser startet. An der PHBern schaltet der Hauptschalter beides zusammen.</li></ol>"
+        "html": "<ol><li>Warten, bis der Rauch abgesaugt ist, dann die Klappe öffnen.</li><li>Teile und Reste entnehmen, kleine Reste aus dem Wabenplatte entfernen.</li><li>Wenn niemand mehr lasert: den Laser am Hauptschalter ausschalten, er schaltet das Kühlgerät mit aus.</li></ol>"
        }
       ]
      }

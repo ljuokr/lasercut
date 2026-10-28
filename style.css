@@ -157,6 +157,7 @@ pre:focus-visible, summary:focus-visible {
 .begriff img { width: auto; height: auto; max-width: 120px; max-height: 150px; justify-self: center; border-radius: 4px; }
 .begriff strong { display: block; }
 .bildquelle { font-size: 0.85em; color: #555; margin: 0 0 18px; }
+.lp21 { font-size: 0.85em; color: #555; }
 .prose-content figure.schritt { margin: 10px 0 8px; }
 .prose-content figure.schritt img { width: auto; max-width: 100%; max-height: 300px; border-radius: 4px; }
 .prose-content figure.schritt figcaption { font-size: 0.85em; color: #555; margin-top: 4px; }
